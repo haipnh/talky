@@ -7,6 +7,10 @@ This repository shows how to deploy [a simple WebRTC application](https://github
 * openssl
 * Docker
 
+**Setup**
+1. Go to https://accounts.simplewebrtc.com to register an account then get your API key.
+2. Open Dockerfile and update the SIMPLE_WEBRTC_API_KEY value.
+
 **Instruction**
 1. Generate an RSA public/private key pair to sign TLS/SSL certificates for deployment
 ```shell
