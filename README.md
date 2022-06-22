@@ -33,7 +33,7 @@ docker build -t talky .
 docker run -it --rm -d -p 80:80 -p 443:443 --name talky talky:latest
 ```
 
-5. Go to https://localhost or https://<local-IP> to use the application.
+5. Go to https://localhost or https://local.IP to use the application.
   
 **Notes**
 1. Check the firewall configuration if you cannot access the website
